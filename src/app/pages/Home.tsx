@@ -1,3 +1,4 @@
+import image_4b9722986b42abf4ca27149466c41a82df33eb86 from 'figma:asset/4b9722986b42abf4ca27149466c41a82df33eb86.png';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'motion/react';
@@ -467,7 +468,7 @@ export function Home() {
                 className="relative z-10"
               >
                 <img
-                  src={heroBannerImage}
+                  src={image_4b9722986b42abf4ca27149466c41a82df33eb86}
                   alt="Technology Innovation - Digital Transformation"
                   className="w-full h-auto rounded-lg shadow-2xl"
                 />
