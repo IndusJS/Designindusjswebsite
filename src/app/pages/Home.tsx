@@ -1,4 +1,5 @@
-import image_4b9722986b42abf4ca27149466c41a82df33eb86 from 'figma:asset/4b9722986b42abf4ca27149466c41a82df33eb86.png';
+// import image_4b9722986b42abf4ca27149466c41a82df33eb86 from 'figma:asset/4b9722986b42abf4ca27149466c41a82df33eb86.png';
+const image_4b9722986b42abf4ca27149466c41a82df33eb86 = '';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'motion/react';

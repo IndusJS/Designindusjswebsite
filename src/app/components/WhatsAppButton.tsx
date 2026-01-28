@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { useState, useEffect } from 'react';
-import whatsappLogo from 'figma:asset/67340318c211b582307c08178e67ed57a75aa448.png';
+// import whatsappLogo from 'figma:asset/67340318c211b582307c08178e67ed57a75aa448.png';
+const whatsappLogo = '';
 
 export function WhatsAppButton() {
   const [isVisible, setIsVisible] = useState(false);

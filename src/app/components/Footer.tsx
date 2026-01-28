@@ -1,9 +1,11 @@
-import image_77294a69e4b97c6fe3c1ae666c2678ce94805108 from 'figma:asset/77294a69e4b97c6fe3c1ae666c2678ce94805108.png';
+// import image_77294a69e4b97c6fe3c1ae666c2678ce94805108 from 'figma:asset/77294a69e4b97c6fe3c1ae666c2678ce94805108.png';
+const image_77294a69e4b97c6fe3c1ae666c2678ce94805108 = '';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Facebook, ArrowRight } from 'lucide-react';
-import logoImage from 'figma:asset/970c7610654354713eebc3fe9a4c02a800493613.png';
+// import logoImage from 'figma:asset/970c7610654354713eebc3fe9a4c02a800493613.png';
+const logoImage = '';
 
 export function Footer() {
   const socialLinks = [

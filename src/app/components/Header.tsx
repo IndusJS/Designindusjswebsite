@@ -1,10 +1,12 @@
-import image_a547f418bdb304c4ad928741e735fef54c1c0de1 from 'figma:asset/a547f418bdb304c4ad928741e735fef54c1c0de1.png';
+// import image_a547f418bdb304c4ad928741e735fef54c1c0de1 from 'figma:asset/a547f418bdb304c4ad928741e735fef54c1c0de1.png';
+const image_a547f418bdb304c4ad928741e735fef54c1c0de1 = '';
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { Button } from './Button';
 import { Menu, X } from 'lucide-react';
-import logoImage from 'figma:asset/970c7610654354713eebc3fe9a4c02a800493613.png';
+// import logoImage from 'figma:asset/970c7610654354713eebc3fe9a4c02a800493613.png';
+const logoImage = '';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
