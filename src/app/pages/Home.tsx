@@ -1,4 +1,5 @@
-import image_4b9722986b42abf4ca27149466c41a82df33eb86 from 'figma:asset/4b9722986b42abf4ca27149466c41a82df33eb86.png';
+// import image_4b9722986b42abf4ca27149466c41a82df33eb86 from 'figma:asset/4b9722986b42abf4ca27149466c41a82df33eb86.png';
+const image_4b9722986b42abf4ca27149466c41a82df33eb86 = '';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'motion/react';
@@ -33,7 +34,7 @@ import {
   Rocket
 } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import heroBannerImage from 'figma:asset/f0001c118b1c4fa6345a8e50f46445cd3d2deae6.png';
+import heroBannerImage from '../../assets/hero-banner-image.jpeg';
 
 export function Home() {
   const detailedServices = [
@@ -41,7 +42,7 @@ export function Home() {
       icon: <Smartphone size={32} />,
       title: 'iOS App Development',
       description: 'We design and develop high-quality iOS applications that are reliable, scalable, and aligned with real business needs. Our focus is on building apps that not only look good, but also perform consistently and support long-term growth.',
-      imageUrl: 'https://images.unsplash.com/photo-1760360059351-11e70b0025e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpT1MlMjBtb2JpbGUlMjBhcHAlMjBkZXZlbG9wbWVudHxlbnwxfHx8fDE3NjczNzY2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      imageUrl: heroBannerImage,
       highlights: [
         {
           title: 'Native iOS Excellence',
@@ -468,7 +469,7 @@ export function Home() {
                 className="relative z-10"
               >
                 <img
-                  src={image_4b9722986b42abf4ca27149466c41a82df33eb86}
+                  src={heroBannerImage}
                   alt="Technology Innovation - Digital Transformation"
                   className="w-full h-auto rounded-lg shadow-2xl"
                 />
